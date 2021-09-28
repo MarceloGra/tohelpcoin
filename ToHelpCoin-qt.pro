@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = tohelpcoin-qt
-VERSION = 1.2.5.2
+VERSION = 1.0.0.2-SPERO
 INCLUDEPATH += src src/json src/qt
 QT += network
 DEFINES += ENABLE_WALLET
