@@ -46,7 +46,7 @@ double GetDifficulty(const CBlockIndex* blockindex)
 
 double GetPoWMHashPS()
 {
-    if (pindexBest->nHeight >= Params().LastPOWBlock() && pindexBest->nHeight <= Params().LastOnlyPoSPhase() || pindexBest->nHeight >= Params().NewLastPOWBlock())
+    if (pindexBest->nHeight > Params().LastPOWBlock() && pindexBest->nHeight <= Params().LastOnlyPoSPhase() || pindexBest->nHeight >= Params().NewLastPOWBlock())
         return 0;
 
     int nPoWInterval = 72;
