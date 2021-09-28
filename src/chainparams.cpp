@@ -53,7 +53,7 @@ public:
         pchMessageStart[2] = 0x54;
         pchMessageStart[3] = 0xa3;
         vAlertPubKey = ParseHex("0400eb2b284070c2f1b5969e89eda3771d7ebc1bb81e818c88630d81f35a94d6daf7399d76d93a80331871a655669eee1bfaa65c078b54d61211e45a987191fc2f");
-        nDefaultPort = 21040;
+        nDefaultPort = 5672;
         nRPCPort = 21039;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
@@ -85,7 +85,7 @@ public:
         assert(hashGenesisBlock == uint256("0x0000015de919908f2d0a6aedac3bc06251a79718fb1e661e0b1f314bc11f9b4d"));
         assert(genesis.hashMerkleRoot == uint256("0xff91a64473433e26030e1901c4e7d785d1e848e764876d3ce8d07c80c023b1bf"));
 
-        vSeeds.push_back(CDNSSeedData("digite aqui ip do no1", "digite aqui ip do no2"));
+        vSeeds.push_back(CDNSSeedData("swapcoin.sperocoin.org", "sperocoin.ddns.net"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 76);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 75);
