@@ -1,9 +1,0 @@
-Building ToHelpCoin
-
-See doc/readme-qt.rst for instructions on building ToHelpCoin QT,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of ToHelpCoin.
-
-See doc/build-*.txt for instructions on building tohelpcoind,
-the intended-for-services, no-graphical-interface, reference
-implementation of ToHelpCoin.

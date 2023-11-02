@@ -1,7 +1,3 @@
 Development moved to https://gitlab.com/blacknet-ninja
 
-https://tohelpcoin.tech/ aims to continue on ToHelpCoin chain.
-http://xthexplorer.tohelpcoin.tech/  block explorer
-Donwload wallet windows: https://tohelpcoin.tech/xthwindows.zip
-Donwload wallet Linux: https://tohelpcoin.tech/xthlinux.tar.gz
-Logo: https://tohelpcoin.tech/img/logoxth.png
+https://tohelpcoin.org/ aims to continue on ToHelpCoin chain.
